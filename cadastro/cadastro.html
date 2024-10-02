@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<style>
+    body {
+        background-color: #C14E77;
+    }
+</style>
+
+
+<style> button{
+
+    box-sizing: border-box;
+    
+    position: absolute;
+    width: 385px;
+    height: 60px;
+    left: 728px;
+    top: 658px;
+    
+    background: #C14E77;
+    border: 3px solid #FFFFFF;
+    border-radius: 10px;
+
+
+
+
+
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+
+color: #D9D9D9;
+
+
+    }</style>
+
+<style> .imgcadeado{
+
+  
+
+position: absolute;
+width: 22px;
+height: 22px;
+left: 960px;
+top: 494px;
+z-index: +1
+
+    
+    }</style>
+
+<style> .imgdesenho{
+
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 1292px;
+    top: 335px;
+    
+    background: url(image.png);
+    }</style>
+
+
+<style> .imgemail{
+
+    box-sizing: border-box;
+    
+    position: absolute;
+    width: 798px;
+    height: 60px;
+    left: 535px;
+    top: 566px;
+    
+    background: #EEE7E7;
+    border: 3px solid #FFFFFF;
+    border-radius: 10px;
+    z-index: -1
+    }</style>
+
+
+<style> .imgnome{
+
+    box-sizing: border-box;
+    
+    position: absolute;
+    width: 385px;
+    height: 60px;
+    left: 535px;
+    top: 473px;
+    
+    background: #EEE7E7;
+    border: 3px solid #EEE7E7;
+    border-radius: 10px;
+    }</style>
+
+
+<style> .imgpessoa{
+
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 557px;
+    top: 493px;
+    
+    }</style>
+
+
+<style> .imgsobrenome{
+
+    box-sizing: border-box;
+    
+    position: absolute;
+    width: 385px;
+    height: 60px;
+    left: 948px;
+    top: 474px;
+    
+    background: #EEE7E7;
+    border: 3px solid #EEE7E7;
+    border-radius: 10px;
+    }</style>
+
+
+<style> .txtfrase{
+
+    position: absolute;
+    width: 844px;
+    height: 33px;
+    left: 565px;
+    top: 360px;
+    
+    font-family: 'Inter', sans-serif;
+    font-style: Semi Bold;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    
+    color: #FFFFFF;
+    
+    }</style>
+
+<style>
+    #nm {
+      position: absolute;
+      width: 302px;
+      height: 24px;
+      left: 587px;
+      top: 492px;
+      
+      background: #EEE7E7;
+  
+      font-family: 'Inter', sans-serif;
+      font-style: regular;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+  
+      color: rgba(25, 38, 69, 0.55);
+      
+      border: 1px solid #EEE7E7; 
+      outline: none; 
+    }
+    
+    #nm:focus {
+      border-color: #EEE7E7; 
+    }
+  </style>
+  
+
+<style> #sn{position: absolute;
+    width: 315px;
+    height: 24px;
+    left: 990px;
+    top: 492px;
+    
+    background: #EEE7E7;
+
+    font-family: 'Inter', sans-serif;
+    font-style: regular;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: rgba(25, 38, 69, 0.55);
+    
+    border: 1px solid #EEE7E7; 
+    outline: none; 
+  }
+  
+  #sn:focus {
+    border-color: #EEE7E7; 
+  }</style>
+
+<style> #em{position: absolute;
+    width: 713px;
+    height: 24px;
+    left: 587px;
+    top: 585px;
+    
+    background: #EEE7E7;
+
+    font-family: 'Inter', sans-serif;
+    font-style: regular;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: rgba(25, 38, 69, 0.55);
+    
+    border: 1px solid #EEE7E7; 
+    outline: none; 
+  }
+  
+  #em:focus {
+    border-color: #EEE7E7;}</style>
+
+<style> .imgemailsimbulo{position: absolute;
+    width: 23px;
+    height: 22px;
+    left: 553px;
+    top: 586px;
+    }</style>
+
+<img class="imgcadeado"src="imgcadastro/cadeado.png">
+<img class="imgdesenho"src="imgcadastro/desenho.png">
+<img class="imgemail"src="imgcadastro/email.png">
+<img class="imgnome"src="imgcadastro/nome.png">
+<img class="imgpessoa"src="imgcadastro/pessoa.png">
+<img class="imgsobrenome"src="imgcadastro/sobrenome.png">
+<img class="imgemailsimbulo"src="imgcadastro/emails.png">
+
+
+
+
+<body>
+
+    
+
+    <h1 class="txtfrase"> Cadastra-se agora! É rápido e simples.</h1>
+    
+     <button onclick="alert('Botão Acessar clicado!')">Fazer Login</button>
+
+    
+     <label class="nome">  </label>
+    <input type="text" id="nm" name="nm" placeholder="Nome">
+
+     <label class="sobrenome" >  </label>
+    <input type="text" id="sn" name="sn" placeholder="Senha">
+
+    <label class="email" >  </label>
+    <input type="text" id="em" name="em" placeholder="E-mail educacional">
+
+
+
+</body>
+</html>
